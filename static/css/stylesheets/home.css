@@ -2,36 +2,3 @@
 #myCarousel {
   margin-top: -20px;
 }
-
-/* line 5, ../sass/home.scss */
-#service-1, #service-2, #service-3, #service-4 {
-  height: 200px;
-}
-
-/* line 9, ../sass/home.scss */
-.round-flag {
-  background-color: white;
-  height: 200px;
-  border-bottom-left-radius: 4em;
-  border-bottom-right-radius: 4em;
-}
-
-/* line 16, ../sass/home.scss */
-#round-flag-1 {
-  border-top: 5px solid red;
-}
-
-/* line 20, ../sass/home.scss */
-#round-flag-2 {
-  border-top: 5px solid blue;
-}
-
-/* line 25, ../sass/home.scss */
-#round-flag-3 {
-  border-top: 5px solid orange;
-}
-
-/* line 30, ../sass/home.scss */
-#round-flag-4 {
-  border-top: 5px solid green;
-}
