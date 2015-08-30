@@ -69,3 +69,9 @@ body {
   background-color: #e2e2e2;
   text-align: center;
 }
+
+/* line 48, ../sass/default.scss */
+#footer-text {
+  font-size: 0.8em;
+  padding: 1em;
+}

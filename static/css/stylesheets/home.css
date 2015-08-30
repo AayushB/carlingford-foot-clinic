@@ -3,31 +3,39 @@
   margin-top: -20px;
 }
 
-/* line 5, ../sass/home.scss */
+/* line 4, ../sass/home.scss */
 #home-4-box {
-  border: 3px solid white;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
 }
 
 /* line 8, ../sass/home.scss */
 #home-box-1 {
   background-color: blue;
-  height: 200px;
+  border: 1px solid black;
 }
 
 /* line 12, ../sass/home.scss */
 #home-box-2 {
   background-color: green;
-  height: 200px;
+  border: 1px solid black;
 }
 
 /* line 16, ../sass/home.scss */
 #home-box-3 {
   background-color: red;
-  height: 200px;
+  border: 1px solid black;
 }
 
 /* line 20, ../sass/home.scss */
 #home-box-4 {
   background-color: yellow;
-  height: 200px;
+  border: 1px solid black;
+}
+
+/* line 25, ../sass/home.scss */
+.centered-message {
+  text-align: center;
+  color: white;
+  padding: 0.2em;
 }
