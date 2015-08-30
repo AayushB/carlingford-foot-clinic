@@ -1,0 +1,15 @@
+/* Reset and Normalize */
+@import "compass/reset";
+
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+carousel-inner > .item {
+    position: relative;
+    display: none;
+    -webkit-transition: 1s ease-in-out left;
+    -moz-transition: 1s ease-in-out left;
+    -o-transition: 1s ease-in-out left;
+    transition: 1s ease-in-out left;
+}

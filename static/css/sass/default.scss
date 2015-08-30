@@ -1,0 +1,47 @@
+/*********** Deafult Theme ***************/
+@import "_color.scss";
+
+$font-stack: 'Source Sans Pro', sans-serif;
+
+/************* FONTS *************/
+h1,h2,h3,h4,h5,p,li,a,ul{font-family: $font-stack !important;}
+h1{
+        font-weight: 600;
+        font-size:2.2em;
+}
+h2{
+        font-weight: 400;
+        font-size:1.7em;
+}
+h3,h4,p,ul,li,a{font-weight: 300;}
+h3{font-size:1.4em;}
+h4{font-size:1.2em;}
+ul,li,a,p{font-size:1em;}
+/*********************************/
+
+/************* COLORS *************/
+body
+{
+	background-color:#f2f2f2;
+}
+/*********************************/
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: $footer-color;
+  text-align:center;
+  }
