@@ -2,3 +2,32 @@
 #myCarousel {
   margin-top: -20px;
 }
+
+/* line 5, ../sass/home.scss */
+#home-4-box {
+  border: 3px solid white;
+}
+
+/* line 8, ../sass/home.scss */
+#home-box-1 {
+  background-color: blue;
+  height: 200px;
+}
+
+/* line 12, ../sass/home.scss */
+#home-box-2 {
+  background-color: green;
+  height: 200px;
+}
+
+/* line 16, ../sass/home.scss */
+#home-box-3 {
+  background-color: red;
+  height: 200px;
+}
+
+/* line 20, ../sass/home.scss */
+#home-box-4 {
+  background-color: yellow;
+  height: 200px;
+}

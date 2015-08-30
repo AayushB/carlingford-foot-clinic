@@ -20,6 +20,7 @@ $dropDown       : true;
     > li {
       > a {
         color: $colDefault;
+        padding-right:60px;
         &:hover,  &:focus {
           color: $colHighlight; }}
       @if $dropDown {
