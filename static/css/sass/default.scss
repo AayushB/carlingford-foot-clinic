@@ -17,6 +17,10 @@ h3,h4,p,ul,li,a{font-weight: 300;}
 h3{font-size:1.4em;}
 h4{font-size:1.2em;}
 ul,li,a,p{font-size:1em;}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
 /*********************************/
 
 /************* COLORS *************/
@@ -41,11 +45,11 @@ body {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 60px;
+  height: 50px;
   background-color: $footer-color;
   text-align:center;
   }
   #footer-text{
   font-size:0.8em;
-  padding:1em;
+  padding:1.2em;
   }

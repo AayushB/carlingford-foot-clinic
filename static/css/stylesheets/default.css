@@ -37,9 +37,14 @@ ul, li, a, p {
   font-size: 1em;
 }
 
+/* line 20, ../sass/default.scss */
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+}
+
 /*********************************/
 /************* COLORS *************/
-/* line 23, ../sass/default.scss */
+/* line 27, ../sass/default.scss */
 body {
   background-color: #f2f2f2;
 }
@@ -47,31 +52,31 @@ body {
 /*********************************/
 /* Sticky footer styles
 -------------------------------------------------- */
-/* line 31, ../sass/default.scss */
+/* line 35, ../sass/default.scss */
 html {
   position: relative;
   min-height: 100%;
 }
 
-/* line 35, ../sass/default.scss */
+/* line 39, ../sass/default.scss */
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
 
-/* line 39, ../sass/default.scss */
+/* line 43, ../sass/default.scss */
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 60px;
+  height: 50px;
   background-color: #e2e2e2;
   text-align: center;
 }
 
-/* line 48, ../sass/default.scss */
+/* line 52, ../sass/default.scss */
 #footer-text {
   font-size: 0.8em;
-  padding: 1em;
+  padding: 1.2em;
 }

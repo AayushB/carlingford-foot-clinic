@@ -1,8 +1,8 @@
 /* Navbar Theme Design */
 /* line 9, ../sass/navbar.scss */
 .navbar-default {
-  background-color: #323232;
-  border-color: #323232;
+  background-color: #222;
+  border-color: #222;
   border-radius: 0;
 }
 /* line 13, ../sass/navbar.scss */
@@ -28,7 +28,7 @@
 }
 /* line 27, ../sass/navbar.scss */
 .navbar-default .navbar-nav > li > .dropdown-menu {
-  background-color: #323232;
+  background-color: #222;
 }
 /* line 29, ../sass/navbar.scss */
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
@@ -37,29 +37,29 @@
 /* line 31, ../sass/navbar.scss */
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover, .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
   color: #b2b2b2;
-  background-color: #323232;
+  background-color: #222;
 }
 /* line 34, ../sass/navbar.scss */
 .navbar-default .navbar-nav > li > .dropdown-menu .divider {
-  background-color: #323232;
+  background-color: #222;
 }
 /* line 38, ../sass/navbar.scss */
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #b2b2b2;
-  background-color: #323232;
+  background-color: #222;
 }
 /* line 42, ../sass/navbar.scss */
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
   color: #b2b2b2;
-  background-color: #323232;
+  background-color: #222;
 }
 /* line 45, ../sass/navbar.scss */
 .navbar-default .navbar-toggle {
-  border-color: #323232;
+  border-color: #222;
 }
 /* line 47, ../sass/navbar.scss */
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #323232;
+  background-color: #222;
 }
 /* line 49, ../sass/navbar.scss */
 .navbar-default .navbar-toggle .icon-bar {
@@ -91,7 +91,7 @@
   /* line 65, ../sass/navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #b2b2b2;
-    background-color: #323232;
+    background-color: #222;
   }
 }
 @media (min-width: 768px) {

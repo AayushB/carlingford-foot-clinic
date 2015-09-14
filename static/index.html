@@ -36,99 +36,70 @@ Copyright: CARLINGFORDFOOTCLINIC 2015
   <link rel="stylesheet" href="css/stylesheets/navbar.css" rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/stylesheets/default.css" rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/stylesheets/home.css" rel='stylesheet' type='text/css'>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+
+          <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+        
+        <script type="text/javascript">
+            // When the window has finished loading create our google map below
+            google.maps.event.addDomListener(window, 'load', init);
+        
+            function init() {
+                // Basic options for a simple Google Map
+                // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+                var mapOptions = {
+                    // How zoomed in you want the map to start at (always required)
+                    zoom: 11,
+
+                    // The latitude and longitude to center the map (always required)
+                    center: new google.maps.LatLng(-33.775928, 151.052141), // New York
+
+                    // How you would like to style the map. 
+                    // This is where you would paste any style found on Snazzy Maps.
+                    styles: [{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#444444"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#f2f2f2"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#75D1F0"},{"visibility":"on"}]}]
+                };
+
+                // Get the HTML DOM element that will contain your map 
+                // We are using a div with id="map" seen below in the <body>
+                var mapElement = document.getElementById('map');
+
+                // Create the Google Map using our element and options defined above
+                var map = new google.maps.Map(mapElement, mapOptions);
+
+                // Let's also add a marker while we're at it
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(-33.775928, 151.052141),
+                    map: map,
+                    title: 'Snazzy!'
+                });
+            }
+        </script>
+
+        <style>
+        .clickable {
+    cursor: pointer;
+}
+</style>
+
 
 
 </head>
 
 <body>
-      <!-- Static navbar -->
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Logo</a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li class="dropdown-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div><!--/.container-fluid -->
-      </nav>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
       <!-- **************************************** MAIN CONTENT ****************************** -->
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-          </ol>
 
           <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
             <div class="item active">
-              <img src="http://placehold.it/3500x750" alt="Chania">
+              <img src="img/happy_feet.jpg" alt="Chania">
               <div class="carousel-caption">
-                <!--               <h3>Chania</h3>
-                <p>The atmosphere in Chania has a touch of Florence and Venice.</p> -->
+                <p id="carousel-message">Carlingford Foot Clinic caters to people of all ages for the assesment, diagnosis and treatment of all foot and leg conditions. Our Podiatrist is specialized in the prevention,diagnosis, treatment nd rehabilitation of disorders of the foot and the lower limb.</p>
               </div>
-            </div>
-
-            <div class="item">
-              <img src="http://placehold.it/3500x750" alt="Chania">
-              <div class="carousel-caption">
-                <!--               <h3>Chania</h3>
-                <p>The atmosphere in Chania has a touch of Florence and Venice.</p> -->
-              </div>
-            </div>
-
-            <div class="item">
-              <img src="http://placehold.it/3500x750" alt="Flower">
-              <div class="carousel-caption">
-                <!--               <h3>Flowers</h3>
-                <p>Beatiful flowers in Kolymbari, Crete.</p> -->
-              </div>
-            </div>
-
-            <div class="item">
-              <img src="http://placehold.it/3500x750" alt="Flower">
-              <div class="carousel-caption">
-                <!--               <h3>Flowers</h3>
-                <p>Beatiful flowers in Kolymbari, Crete.</p> -->
+              <div class="arrow bounce">
               </div>
             </div>
           </div>
@@ -150,86 +121,106 @@ Copyright: CARLINGFORDFOOTCLINIC 2015
     <div class="container-fluid">
       <div id="home-4-box">
         <div class="row">
-          <div class="col-sm-6" id="home-box-1">
+          <div class="col-sm-6 home-box clickable" data-toggle="modal" data-target="#construction">
             <div class="row">
-              <img src="http://placehold.it/550x175" alt="Chania" style="width:100%">
-            </div>
-            <div class="row">
-              <h3 class="centered-message">HEADING</h3>
-              <p class="centered-message"> This is message one </p>
-              <p class="centered-message"> This is message two </p>
+              <h2 class="centered-message">PODIATRY</h2>
             </div>
           </div>
-          <div class="col-sm-6" id="home-box-2">
+          <div class="col-sm-6 home-box" data-toggle="modal" data-target="#construction">
             <div class="row">
-              <img src="http://placehold.it/550x175" alt="Chania" style="width:100%">
-            </div>
-            <div class="row">
-              <h3 class="centered-message">HEADING</h3>
-              <p class="centered-message"> This is message one </p>
-              <p class="centered-message"> This is message two </p>
+              <h2 class="centered-message">BIOMECHANICAL ASSESMENT</h2>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-sm-6" id="home-box-3">
+          <div class="col-sm-6 home-box" data-toggle="modal" data-target="#construction">
             <div class="row">
-              <img src="http://placehold.it/550x175" alt="Chania" style="width:100%">
-            </div>
-            <div class="row">
-              <h3 class="centered-message">HEADING</h3>
-              <p class="centered-message"> This is message one </p>
-              <p class="centered-message"> This is message two </p>
+              <h2 class="centered-message">NAIL SURGERY</h2>
             </div>
           </div>
-          <div class="col-sm-6" id="home-box-4">
+          <a href="#contact-us">
+          <div class="col-sm-6 home-box" >
             <div class="row">
-              <img src="http://placehold.it/550x175" alt="Chania" style="width:100%">
-            </div>
-            <div class="row">
-              <h3 class="centered-message">HEADING</h3>
-              <p class="centered-message"> This is message one </p>
-              <p class="centered-message"> This is message two </p>
+              <h2 class="centered-message">CONTACT US</h2>
             </div>
           </div>
+          </a>
         </div>
       </div>
     </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div class="container-fluid">
-      <div class="row" id="home-box-2">
-        <div> About| content </div>
+    <div class="container-fluid" style="background:#BDEEFF; padding:15px;" id="contact-us">
+      <div class="row">
+        <div class="col-sm-5">
+        </div>
+        <div class="col-sm-2">
+          <img src="img/akka.jpg" alt="Chania" style="width:100%; border-radius:50%">
+        </div>
+        <div class="col-sm-5">
+        </div>
+      </div>
+      <div class="row" style="border-bottom:3px solid black; padding:10px">
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-6" style="text-align:center">
+          <h2>Akka Parajuli</h2>
+          <h3>Level 3 Carlingford Court</h3>
+          <h3>Inside Fitness First, Exl Physiotherapy</h3>
+          <h3>801 Pennant Hills Road, Carlingford</h3>
+        </div>
+        <div class="col-sm-3">
+        </div>
+      </div>
+      <div class="row" style="border-bottom:3px solid black; margin-bottom:-25px">
+        <div id="map"></div>
       </div>
     </div>
 
+
+
+
       <footer class="footer">
       <div class="container">
-        <p id="footer-text">Copyright © 2015 Carlingford. All rights reserved. Privacy Policy | Terms of Use | Sales and Refunds</p>
+        <p id="footer-text">Copyright © 2015 Carlingford Foot Clinic. All rights reserved.</p>
       </div>
     </footer>
+
+
+
+
+    <!-- Modal -->
+    <div id="construction" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-body" style="text-align:center; line-height:35px; background:#f2f2f2">
+                <h1>COMING SOON</h1>
+                <h3> We are doing our best to update the site. </h3>
+                <h3> Mean while stay tuned... </h3>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
 </body>
 
 </html>
+
+
+<script>
+        $('a[href^="#"]').on('click', function(event) {
+
+    var target = $( $(this).attr('href') );
+
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: target.offset().top
+        }, 1000);
+    }
+
+});
+        </script>
