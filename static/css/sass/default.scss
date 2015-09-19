@@ -6,27 +6,38 @@ $font-stack: 'Source Sans Pro', sans-serif;
 /************* FONTS *************/
 h1,h2,h3,h4,h5,p,li,a,ul{font-family: $font-stack !important;}
 h1{
-        font-weight: 600;
-        font-size:2.2em;
+     font-weight:600;
+     font-size:1.8em;
 }
 h2{
         font-weight: 400;
         font-size:1.7em;
 }
 h3,h4,p,ul,li,a{font-weight: 300;}
+h5{font-weight:600;}
 h3{font-size:1.4em;}
 h4{font-size:1.2em;}
 ul,li,a,p{font-size:1em;}
 a:hover, a:visited, a:link, a:active
 {
     text-decoration: none;
+    color:black;
+}
+.big-letter
+{
+  font-size:2em;
+  font-weight:600;
+}
+/** Make divs clickable on ios */
+.clickable {
+    cursor: pointer;
 }
 /*********************************/
 
 /************* COLORS *************/
 body
 {
-	background-color:#f2f2f2;
+	background-color:rgb(0,36,36);
 }
 /*********************************/
 
@@ -52,4 +63,5 @@ body {
   #footer-text{
   font-size:0.8em;
   padding:1.2em;
+  color:white;
   }

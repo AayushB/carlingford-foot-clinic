@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, p, li, a, ul {
 /* line 8, ../sass/default.scss */
 h1 {
   font-weight: 600;
-  font-size: 2.2em;
+  font-size: 1.8em;
 }
 
 /* line 12, ../sass/default.scss */
@@ -23,60 +23,79 @@ h3, h4, p, ul, li, a {
 }
 
 /* line 17, ../sass/default.scss */
+h5 {
+  font-weight: 600;
+}
+
+/* line 18, ../sass/default.scss */
 h3 {
   font-size: 1.4em;
 }
 
-/* line 18, ../sass/default.scss */
+/* line 19, ../sass/default.scss */
 h4 {
   font-size: 1.2em;
 }
 
-/* line 19, ../sass/default.scss */
+/* line 20, ../sass/default.scss */
 ul, li, a, p {
   font-size: 1em;
 }
 
-/* line 20, ../sass/default.scss */
+/* line 21, ../sass/default.scss */
 a:hover, a:visited, a:link, a:active {
   text-decoration: none;
+  color: black;
+}
+
+/* line 26, ../sass/default.scss */
+.big-letter {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+/** Make divs clickable on ios */
+/* line 32, ../sass/default.scss */
+.clickable {
+  cursor: pointer;
 }
 
 /*********************************/
 /************* COLORS *************/
-/* line 27, ../sass/default.scss */
+/* line 38, ../sass/default.scss */
 body {
-  background-color: #f2f2f2;
+  background-color: #002424;
 }
 
 /*********************************/
 /* Sticky footer styles
 -------------------------------------------------- */
-/* line 35, ../sass/default.scss */
+/* line 46, ../sass/default.scss */
 html {
   position: relative;
   min-height: 100%;
 }
 
-/* line 39, ../sass/default.scss */
+/* line 50, ../sass/default.scss */
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
 
-/* line 43, ../sass/default.scss */
+/* line 54, ../sass/default.scss */
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 50px;
-  background-color: #e2e2e2;
+  background-color: #111;
   text-align: center;
 }
 
-/* line 52, ../sass/default.scss */
+/* line 63, ../sass/default.scss */
 #footer-text {
   font-size: 0.8em;
   padding: 1.2em;
+  color: white;
 }
