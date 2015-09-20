@@ -18,51 +18,128 @@ h2 {
 }
 
 /* line 16, ../sass/default.scss */
-h3, h4, p, ul, li, a {
-  font-weight: 300;
+h3 {
+  font-weight: 400;
+  line-height: 30px;
 }
 
 /* line 17, ../sass/default.scss */
+h4, p, ul, li, a {
+  font-weight: 300;
+  line-height: 25px;
+}
+
+/* line 18, ../sass/default.scss */
 h5 {
   font-weight: 600;
 }
 
-/* line 18, ../sass/default.scss */
+/* line 19, ../sass/default.scss */
 h3 {
   font-size: 1.4em;
 }
 
-/* line 19, ../sass/default.scss */
+/* line 20, ../sass/default.scss */
 h4 {
   font-size: 1.2em;
 }
 
-/* line 20, ../sass/default.scss */
+/* line 21, ../sass/default.scss */
 ul, li, a, p {
   font-size: 1em;
 }
 
-/* line 21, ../sass/default.scss */
+/* line 22, ../sass/default.scss */
 a:hover, a:visited, a:link, a:active {
   text-decoration: none;
   color: black;
 }
 
-/* line 26, ../sass/default.scss */
+/* line 27, ../sass/default.scss */
 .big-letter {
   font-size: 2em;
   font-weight: 600;
 }
 
-/** Make divs clickable on ios */
 /* line 32, ../sass/default.scss */
+.more {
+  color: #222;
+  background: #f2f2f2;
+  padding: 5px 20px;
+  text-align: center;
+  font-size: 0.8em;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 1.1em;
+  width: 150px;
+}
+
+/* line 46, ../sass/default.scss */
+.i-more {
+  color: #f2f2f2;
+  background: #222;
+  padding: 5px 20px;
+  text-align: center;
+  font-size: 0.8em;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 1.1em;
+  width: 150px;
+}
+
+/* line 60, ../sass/default.scss */
+#pink-heading-h1 {
+  color: white;
+  background: #800033;
+  width: 285px;
+  padding: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-size: 1.8em;
+}
+
+/* line 70, ../sass/default.scss */
+#black-heading-h4 {
+  color: white;
+  background: #002424;
+  padding: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-size: 1.3em;
+}
+
+/* line 79, ../sass/default.scss */
+#i-pink-heading-h1 {
+  color: white;
+  width: 350px;
+  padding: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-size: 1.8em;
+}
+
+/* line 88, ../sass/default.scss */
+#i-black-heading-h4 {
+  color: #001F1E;
+  padding: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-size: 1.3em;
+}
+
+/** Make divs clickable on ios */
+/* line 98, ../sass/default.scss */
 .clickable {
   cursor: pointer;
 }
 
 /*********************************/
 /************* COLORS *************/
-/* line 38, ../sass/default.scss */
+/* line 104, ../sass/default.scss */
 body {
   background-color: #002424;
 }
@@ -70,19 +147,19 @@ body {
 /*********************************/
 /* Sticky footer styles
 -------------------------------------------------- */
-/* line 46, ../sass/default.scss */
+/* line 112, ../sass/default.scss */
 html {
   position: relative;
   min-height: 100%;
 }
 
-/* line 50, ../sass/default.scss */
+/* line 116, ../sass/default.scss */
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
 
-/* line 54, ../sass/default.scss */
+/* line 120, ../sass/default.scss */
 .footer {
   position: absolute;
   bottom: 0;
@@ -93,7 +170,7 @@ body {
   text-align: center;
 }
 
-/* line 63, ../sass/default.scss */
+/* line 129, ../sass/default.scss */
 #footer-text {
   font-size: 0.8em;
   padding: 1.2em;

@@ -11,17 +11,52 @@
   background: $teal !important;
   color:white !important;
   }
-}
-.logo div{
-margin-top:-5px;
-margin-left:35px
+  transition: all 0.5s ease;
 }
 
-#foot-img{
+.logo-regular
+{
+  background:$teal;
+  margin-left:50px !important;
+  padding:55px 20px 55px 50px;
+  position:absolute;
+  &:hover{
+  background: $teal !important;
+  color:white !important;
+  }
+  position:relative;
+  padding:0px 20px 0px 50px;
+  height:80px;
+  margin-left:-15px !important;
+  transition: all 0.5s ease;
+}
+
+.logo-regular div{
+  margin-left:35px;
+  margin-top:25px !important;
+  transition: all 0.5s ease;
+}
+
+.foot-img-regular{
+ position:absolute;
+  width:70px;
+  margin-top:-25px;
+  margin-left:-60px;
+  transition: all 0.5s ease;
+}
+
+.logo div{
+margin-top:-5px;
+margin-left:35px;
+transition: all 0.5s ease;
+}
+
+.foot-img{
 width:90px;
 margin-top:-46px;
 margin-left:-65px; 
 position:absolute;
+transition: all 0.5s ease;
 }
 
 @media (max-width: 992px) {
@@ -30,13 +65,16 @@ position:absolute;
   padding:0px 20px 0px 50px;
   height:80px;
   margin-left:-15px !important;
+  transition: all 0.5s ease;
 }
 .logo div{
   margin-top:25px !important;
+  transition: all 0.5s ease;
 }
-#foot-img{
+.foot-img{
   width:70px;
   margin-top:-25px !important;
+  transition: all 0.5s ease;
 }
 #myCarousel
 {

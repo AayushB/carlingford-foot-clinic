@@ -13,7 +13,8 @@ h2{
         font-weight: 400;
         font-size:1.7em;
 }
-h3,h4,p,ul,li,a{font-weight: 300;}
+h3{font-weight: 400; line-height:30px;}
+h4,p,ul,li,a{font-weight: 300; line-height:25px;}
 h5{font-weight:600;}
 h3{font-size:1.4em;}
 h4{font-size:1.2em;}
@@ -28,6 +29,71 @@ a:hover, a:visited, a:link, a:active
   font-size:2em;
   font-weight:600;
 }
+.more{
+  color:#222;
+  background:#f2f2f2;
+  padding:5px 20px;
+  text-align:center;
+  font-size:0.8em;
+  margin-top:5px;
+  border:1px solid #ccc;
+  font-family: $font-stack;
+  font-weight:300;
+  font-size:1.1em;
+  width:150px;
+}
+
+.i-more{
+  color:#f2f2f2;
+  background:#222;
+  padding:5px 20px;
+  text-align:center;
+  font-size:0.8em;
+  margin-top:5px;
+  border:1px solid #ccc;
+  font-family: $font-stack;
+  font-weight:300;
+  font-size:1.1em;
+  width:150px;
+}
+
+#pink-heading-h1{
+  color:white;
+  background:rgb(128, 0, 51);
+   width:285px;
+   padding:10px;
+   font-family: $font-stack;
+   font-weight:600;
+  font-size:1.8em;
+}
+
+#black-heading-h4{
+  color:white;
+  background:rgb(0,36,36);
+  padding:10px;
+  font-family:$font-stack;
+  font-weight:400; 
+  font-size:1.3em;
+}
+
+#i-pink-heading-h1{
+  color:white;
+   width:350px;
+   padding:10px;
+   font-family: $font-stack;
+   font-weight:600;
+  font-size:1.8em;
+}
+
+#i-black-heading-h4{
+  color:$teal;
+  padding:10px;
+  font-family:$font-stack;
+  font-weight:400; 
+  font-size:1.3em;
+}
+
+
 /** Make divs clickable on ios */
 .clickable {
     cursor: pointer;
