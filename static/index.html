@@ -9,8 +9,9 @@ Copyright: CARLINGFORDFOOTCLINIC 2015
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <meta name="description" content="">
-  <meta name="author" content="">
+
+  <meta name="description" content="Carlingford Foot Clinic caters to people of all ages for the assesment, diagnosis and treatment of all foot and leg conditions. Our Podiatrist is specialized in the prevention,diagnosis, treatment and rehabilitation of disorders of the foot and the lower limb. Foot Clinc. Carlingford. Podiatry. ">
+  <meta name="author" content="Aayush Bhandari">
   <title>CARLINGFORD FOOT CLINIC</title>
 
   <!-- Latest minified jquery -->
@@ -29,28 +30,13 @@ Copyright: CARLINGFORDFOOTCLINIC 2015
   <!--font-->
   <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,200' rel='stylesheet' type='text/css'>
 
-  <style>
-    .labels {
-     color: red;
-     background-color: white;
-     font-family: "Lucida Grande", "Arial", sans-serif;
-     font-size: 10px;
-     font-weight: bold;
-     text-align: center;
-     width: 40px;
-     border: 2px solid black;
-     white-space: nowrap;
-   }
-   </style>
-  <!--Google Map -->
-  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-  <script type="text/javascript" src="js/google_map.js"></script>
-
   <!--Carlingford theme css -->
   <link rel="stylesheet" href="css/stylesheets/reset.css" rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/stylesheets/navbar.css" rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/stylesheets/default.css" rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/stylesheets/home.css" rel='stylesheet' type='text/css'>
+
+  <!--fav-icon-->
   <link rel="icon" href="32.png" type="image/png" sizes="32x32">
 
   <!--Carlingford theme js -->
@@ -58,74 +44,73 @@ Copyright: CARLINGFORDFOOTCLINIC 2015
 </head>
 
 <body>
-      <!-- ************************************************************************************ -->
-      <!--                                          NAVBAR                                      -->
-      <!-- ************************************************************************************ -->
-
-
-       <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-             <span class="sr-only">Toggle navigation</span>
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-           </button>
-          <a class="navbar-brand logo" href="#" id="clogo">
-              <div>
-                <img src="img/logo.png" class="foot-img" id="foot-img">
-                </img>
-                <h1>CARLINGFORD</h1> 
-                <p>FOOT CLINIC</p>
-              </div>
-          </a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-             <li><a href="#podiatry"><h5>PODIATRY</h5></a></li>
-             <li><a href="#bio"><h5>BIOMEDICAL ASSESMENT</h5></a></li>
-             <li><a href="#nail-surgery"><h5>NAIL SURGERY</h5></a></li>
-             <li><a href="#contact-us"><h5>CONTACT US</h5></a></li>
-           </ul>
-         </div>
-       </div><!--/.nav-header -->
-     </div><!--/.container-fluid -->
-   </nav>
-
-
   <!-- ************************************************************************************ -->
-  <!--                                        CAROUSEL                                      -->
+  <!--                                          NAVBAR                                      -->
   <!-- ************************************************************************************ -->
-
-
-  <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-    </ol>
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <img src="img/happy_feet.jpg" alt="High Qulaity Expert Podiatry Care">
-        <div class="carousel-caption">
-          <h1 id="carousel-message"></h1>
-        </div>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <p id="hours"> Open Monday-Friday 9am-5pm</p>
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+         <span class="sr-only">Toggle navigation</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+       </button>
+       <a class="navbar-brand logo" href="#" id="clogo">
+        <div>
+          <img src="img/logo.png" class="foot-img" id="foot-img">
+        </img>
+        <h1>CARLINGFORD</h1> 
+        <p>FOOT CLINIC</p>
       </div>
-      <div class="item">
-        <img src="img/happy_feet1.jpg" alt="Assesment, Treatment, Diagnosis">
-        <div class="carousel-caption">
-          <h1 id="carousel-message"></h1>
-        </div>
+    </a>
+  </div>
+  <div id="navbar" class="navbar-collapse collapse">
+    <ul class="nav navbar-nav navbar-right">
+     <li><a href="#podiatry"><h5>PODIATRY</h5></a></li>
+     <li><a href="#bio"><h5>BIOMEDICAL ASSESMENT</h5></a></li>
+     <li><a href="#nail-surgery"><h5>NAIL SURGERY</h5></a></li>
+     <li><a href="#contact-us"><h5>CONTACT US</h5></a></li>
+   </ul>
+ </div>
+</div><!--/.nav-header -->
+</div><!--/.container-fluid -->
+</nav>
+
+
+<!-- ************************************************************************************ -->
+<!--                                        CAROUSEL                                      -->
+<!-- ************************************************************************************ -->
+
+
+<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+  </ol>
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/happy_feet.jpg" alt="High Qulaity Expert Podiatry Care">
+      <div class="carousel-caption">
+        <h1 id="carousel-message"></h1>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/happy_feet1.jpg" alt="Assesment, Treatment, Diagnosis">
+      <div class="carousel-caption">
+        <h1 id="carousel-message"></h1>
       </div>
     </div>
   </div>
+</div>
 
-  <!-- ************************************************************************************ -->
-  <!--                                        Introduction                                  -->
-  <!-- ************************************************************************************ -->
- 
+<!-- ************************************************************************************ -->
+<!--                                        Introduction                                  -->
+<!-- ************************************************************************************ -->
+<section>
   <div class="container-fluid" id="intro">
     <div class="row">
       <h4 style="line-height:45px;">
@@ -133,166 +118,277 @@ Copyright: CARLINGFORDFOOTCLINIC 2015
       </h4>
     </div>
   </div>
+</section>
 
-  <!-- ************************************************************************************ -->
-  <!--                                        Podiatry                                       -->
-  <!-- ************************************************************************************ -->
- 
-  <div class="container-fluid" id="podiatry">
-    <div class="row" style="background:#E1E3E5;">
-      <div class="col-sm-6" style="padding:30px 50px 5px 55px">
-        <div id="pink-heading-h1">PODIATRY SERVICES</div><br><br>
-        <span id="black-heading-h4">Diabetic Foot Health </span><br><br>
-        <h4>Poorly managed Diabetes can have a devastating effect on foot health but it doesn't have to be this way. </h4><div class="more" data-toggle="modal" data-target="#construction">Learn More</div><br><br>
-        <span id="black-heading-h4">Cors & Callus Removal</span><br><br>
-        <h4>Corns and calluses can be a painful nuisance to our feet.</h4><div class="more" data-toggle="modal" data-target="#construction">Learn More</div><br><br>
-        <span id="black-heading-h4">Nail and Skin Management </span><br><br>
-        <h4>We offer help, advice and treatment for a range of skin and nail conditions.</h4><div class="more" data-toggle="modal" data-target="#construction">Learn More</div><br><br>
-        <span id="black-heading-h4">Plantar Wart Treatment </span><br><br>
-        <h4>We offer a range of strong and targeted treatments to encourage the removal of plantar warts, otherwise known as a "verruca pedis".</h4><div class="more" data-toggle="modal" data-target="#construction">Learn More</div><br><br>
-        <span id="black-heading-h4">Wound Management</span><br><br>
-        <h4>Ulcerations and wounds on the feet can be a serious issue if not dealt with thoroughly.</h4><div class="more" data-toggle="modal" data-target="#construction">Learn More</div><br><br>
+<!-- ************************************************************************************ -->
+<!--                                        Podiatry                                       -->
+<!-- ************************************************************************************ -->
+
+<div class="container-fluid" id="podiatry">
+  <div class="row" style="background:#E1E3E5;">
+    <div class="col-sm-6" style="padding:30px 50px 5px 55px">
+      <div id="pink-heading-h1">PODIATRY SERVICES</div><br><br>
+      <span id="black-heading-h4">Diabetic Foot Health </span><br><br>
+      <h4>Diabetes can cause nerve damage and poor blood flow, which can lead to serious foot problems. </h4><div class="more" data-toggle="modal" data-target="#diabetic-foot-health">Learn More</div><br><br>
+      <span id="black-heading-h4">Cors & Callus Removal</span><br><br>
+      <h4>Corns and calluses are caused by too much rubbing or pressure and can be a painful to our feet.</h4><div class="more" data-toggle="modal" data-target="#corn-and-callus">Learn More</div><br><br>
+      <span id="black-heading-h4">Nail and Skin Management </span><br><br>
+      <h4>We offer help, advice and treatment for a range of skin and nail conditions.</h4><div class="more" data-toggle="modal" data-target="#skin-management">Learn More</div><br><br>
+      <span id="black-heading-h4">Plantar Wart Treatment </span><br><br>
+      <h4>We offer various treatments to encourage the removal of plantar warts, otherwise known as a "verruca pedis".</h4><div class="more" data-toggle="modal" data-target="#plantar">Learn More</div><br><br>
+    </div>
+    <div class="col-sm-6" style="padding:30px 50px 5px 55px">
+      <img src="img/drawing.jpg" style="width:100%"> </img>
+    </div>
+  </div>
+</div>
+
+
+<!-- ************************************************************************************ -->
+<!--                               Biomechanical Assesment                                   -->
+<!-- ************************************************************************************ -->
+
+<div class="container-fluid" id="bio">
+  <div class="row" style="background:#222;">
+    <div class="col-sm-7" style="padding:10px 50px 10px 55px;">
+      <img src="img/bio.jpg" style="width:100%"> </img>
+    </div>
+    <div class="col-sm-5" style="padding:10px 50px 10px 55px;color:white;margin-top:10px;">
+      <h1 style="color:#BD004F;">BIOMECHANICAL ASSESMENT</h1><br>
+      <h3>Orthotic Therapy </h3>
+      <h4>We help support, protect or correct problems a patient may have with their joints or limbs.</h4><div class="i-more" data-toggle="modal" data-target="#orthotic">Learn More</div><br><br>
+      <h3>Paediatrics and Taping</h3>
+      <h4>Taping is a technique to reduce pain by maintaining a stable position of bones and muscles.</h4><div class="i-more" data-toggle="modal" data-target="#taping">Learn More</div><br><br>
+    </div>
+  </div>
+</div>
+
+<!-- ************************************************************************************ -->
+<!--                                        Nail Surgery                                  -->
+<!-- ************************************************************************************ -->
+
+<div class="container-fluid" id="nail-surgery">
+  <div class="row" style="background:#E1E3E5;">
+    <div class="col-sm-6" style="padding:30px 50px 30px 55px;">
+      <div id="pink-heading-h1">NAIL SURGERY</div><br><br>
+      <span id="black-heading-h4">Chronic In Grown Toe Nails </span><br><br>
+      <h4>We offer permanent surgical solutions for recurring ingrown toe nails called a partial nail avulsion.</h4><div class="more" data-toggle="modal" data-target="#construction">Learn More</div><br><br>
+      <span id="black-heading-h4">Pathological or Damaged</span><br><br>
+      <h4>We recover badly damaged nail using surgical procedure known as a Total Nail Avulsion.</h4><div class="more" data-toggle="modal" data-target="#construction" >Learn More</div><br><br>
+    </div>
+    <div class="col-sm-6" style="padding:30px 50px 30px 55px">
+      <img src="img/podiatry.jpg" style="width:100%"> </img>
+    </div>
+  </div>
+</div>
+
+<!-- ************************************************************************************ -->
+<!--                                           About US                                   -->
+<!-- ************************************************************************************ -->
+
+
+<div class="container-fluid" style="background:#222; padding:15px;" id="contact-us">
+  <div class="row">
+    <div class="col-sm-4">
+    </div>
+    <div class="col-sm-4">
+      <img src="img/akka.jpg" alt="Akka Parajuli" style="width:100%; border-radius:50%">
+    </div>
+    <div class="col-sm-4">
+    </div>
+  </div>
+  <div class="row" style="border-bottom:1px solid #888; padding:10px">
+    <div class="col-sm-3">
+    </div>
+    <div class="col-sm-6" style="text-align:center;">
+      <h1 style="color:#BD004F;">Akka Parajuli</h1>
+      <h1 style="color:#BD004F;">Podiatrist</h1>
+      <br>
+      <a href="https://www.google.com/maps/place/801+Pennant+Hills+Rd,+Carlingford+NSW+2118,+Australia/@-33.7761599,151.0522056,17z/data=!3m1!4b1!4m2!3m1!1s0x6b12a40622ca347f:0x7355601343395cd1">
+        <h4>Level 3 Carlingford Court</h4>
+        <h4>Inside Fitness First, Exl Physiotherapy</h4>
+        <h3>801 Pennant Hills Road, Carlingford NSW 2118</h3>
+        <h4>( Open Monday-Friday 9am-5pm )</h4><br>
+        <a href="tel://02-9872-8300"><h4>02 9872 8300</h4></a>
+        <a href="tel://0402-734-184"><h4>0402 734 184</h4></a>
+        <a href="mailto:cfootclinic@gmail.com"><h3>cfootclinic@gmail.com</h3></a>
+      </a>
+    </div>
+    <div class="col-sm-3" style="text-align:center">
+    </div>
+  </div>
+  <div class="row" style="border-bottom:3px solid black; margin-bottom:-25px">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6632.80057583959!2d151.05220559999998!3d-33.776159899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12a40622ca347f%3A0x7355601343395cd1!2s801+Pennant+Hills+Rd%2C+Carlingford+NSW+2118%2C+Australia!5e0!3m2!1sen!2sus!4v1442714825265" width=100% height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+</div>
+
+
+
+<!-- ************************************************************************************ -->
+<!--                                        FOOTER                                        -->
+<!-- ************************************************************************************ -->
+<footer class="footer">
+  <div class="container">
+    <p id="footer-text">Copyright © 2015 Carlingford Foot Clinic. All rights reserved.</p>
+  </div>
+</footer>
+
+
+
+<!-- ************************************************************************************ -->
+<!--                                         MODAL                                        -->
+<!-- ************************************************************************************ -->
+
+<div id="construction" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body" style="line-height:35px; background:#f2f2f2">
+        <div id="pink-heading-h2">COMING SOON</div>
+        <div style="padding:10px 0px 10px 0px">
+        <h3> We are doing our best to update the site. </h3>
+        <h3> Mean while stay tuned... </h3>
       </div>
-      <div class="col-sm-6" style="padding:30px 50px 5px 55px">
-        <img src="img/drawing.jpg" style="width:100%"> </img>
       </div>
     </div>
   </div>
+</div>
 
-
-  <!-- ************************************************************************************ -->
-  <!--                               Biomedical Assesment                                   -->
-  <!-- ************************************************************************************ -->
- 
-  <div class="container-fluid" id="bio">
-    <div class="row" style="background:#222;">
-      <div class="col-sm-7" style="padding:10px 50px 10px 55px;">
-        <img src="img/bio.jpg" style="width:100%"> </img>
+<div id="diabetic-foot-health" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body" style="line-height:35px; background:#f2f2f2">
+      <div id="pink-heading-h2">DIABETIC FOOT HEALTH</div>
+      <div style="padding:10px 0px 10px 0px">
+       <h3>With regular foot health assessments, proactive treatments, footwear and foot care education many of the diabetic foot complications can be avoided.</h3>
       </div>
-      <div class="col-sm-5" style="padding:10px 50px 10px 55px;color:white;margin-top:10px;">
-        <h1 style="color:#BD004F;">BIOMEDICAL ASSESMENT</h1><br>
-        <h3>Orthotic Therapy </h3>
-        <h4>Poorly managed Diabetes can have a devastating effect on foot health but it doesn't have to be this way. </h4><div class="i-more" data-toggle="modal" data-target="#construction">Learn More</div><br><br>
-        <h3>Paediatrics and Taping</h3>
-        <h4>Corns and calluses can be a painful nuisance to our feet.</h4><div class="i-more" data-toggle="modal" data-target="#construction">Learn More</div><br><br>
-      </div>
-    </div>
-  </div>
-
-  <!-- ************************************************************************************ -->
-  <!--                                        Nail Surgery                                  -->
-  <!-- ************************************************************************************ -->
- 
-  <div class="container-fluid" id="nail-surgery">
-    <div class="row" style="background:#E1E3E5;">
-      <div class="col-sm-6" style="padding:30px 50px 30px 55px;">
-        <div id="pink-heading-h1">NAIL SURGERY</div><br><br>
-        <span id="black-heading-h4">Chronic In Grown Toe Nails </span><br><br>
-        <h4>Poorly managed Diabetes can have a devastating effect on foot health but it doesn't have to be this way. </h4><div class="more" data-toggle="modal" data-target="#construction">Learn More</div><br><br>
-        <span id="black-heading-h4">Pathological or Damaged</span><br><br>
-        <h4>Corns and calluses can be a painful nuisance to our feet.</h4><div class="more" data-toggle="modal" data-target="#construction" >Learn More</div><br><br>
-      </div>
-      <div class="col-sm-6" style="padding:30px 50px 30px 55px">
-        <img src="img/podiatry.jpg" style="width:100%"> </img>
+       <h3>Our complete Diabetic foot management includes:</h3>
+       <h4>
+          • Neurological and Vascular assessments<br>
+          • Regular foot care and treatment<br>
+          • Foot care education<br>
+          • Wound management<br>
+          • Biomechanical assessment <br>
+          • Appropriate footwear advice<br>
+          • Preventative footwear and orthotic treatment
+       </h4>
       </div>
     </div>
   </div>
-
-  <!-- ************************************************************************************ -->
-  <!--                                           About US                                   -->
-  <!-- ************************************************************************************ -->
+</div>
 
 
-  <div class="container-fluid" style="background:#ADDAFF; padding:15px;" id="contact-us">
-    <div class="row">
-      <div class="col-sm-4">
+<div id="corn-and-callus" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body" style="line-height:35px; background:#f2f2f2">
+      <div id="pink-heading-h2">CORN & CALLUS</div>
+      <div style="padding:10px 0px 10px 0px">
+        <h3>
+          Our podiatrist can remove and prevent the reoccurrences of corn and callus.
+        </h3> 
+        <h4>
+          Corn & callus normally appear on high-pressure areas such as metatarsal heads, heels, overlapping toes and bunions.
+            Heel callus can commonly form fissures, which can breakdown easily causing pain and infection.
+          Depending on the diagnosis a footwear recommendation, simple deflection, orthotics therapy, silipos or otoform devises maybe prescribed for long-term prevention and cushioning.
+        </h4>
       </div>
-      <div class="col-sm-4">
-        <img src="img/akka.jpg" alt="Akka Parajuli" style="width:100%; border-radius:50%">
-      </div>
-      <div class="col-sm-4">
-      </div>
-    </div>
-    <div class="row" style="border-bottom:1px solid #888; padding:10px">
-      <div class="col-sm-3">
-      </div>
-      <div class="col-sm-6" style="text-align:center">
-        <h2>Akka Parajuli</h2>
-        <h2>Podiatrist</h2>
-        <br>
-        <a href="https://www.google.com/maps/place/801+Pennant+Hills+Rd,+Carlingford+NSW+2118,+Australia/@-33.7761599,151.0522056,17z/data=!3m1!4b1!4m2!3m1!1s0x6b12a40622ca347f:0x7355601343395cd1">
-          <h4>Level 3 Carlingford Court</h4>
-          <h4>Inside Fitness First, Exl Physiotherapy</h4>
-          <h3>801 Pennant Hills Road, Carlingford NSW 2118</h3><br>
-          <a href="tel://02-9872-8300"><h4>02 9872 8300</h4></a>
-          <a href="tel://0402-734-184"><h4>0402 734 184</h4></a>
-          <a href="mailto:cfootclinic@gmail.com"><h3>cfootclinic@gmail.com</h3></a>
-        </a>
-      </div>
-      <div class="col-sm-3" style="text-align:center">
-      </div>
-    </div>
-    <div class="row" style="border-bottom:3px solid black; margin-bottom:-25px">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6632.80057583959!2d151.05220559999998!3d-33.776159899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12a40622ca347f%3A0x7355601343395cd1!2s801+Pennant+Hills+Rd%2C+Carlingford+NSW+2118%2C+Australia!5e0!3m2!1sen!2sus!4v1442714825265" width=100% height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
   </div>
+</div>
+</div>
 
 
-
-    <!-- ************************************************************************************ -->
-    <!--                                        FOOTER                                        -->
-    <!-- ************************************************************************************ -->
-    <footer class="footer">
-      <div class="container">
-        <p id="footer-text">Copyright © 2015 Carlingford Foot Clinic. All rights reserved.</p>
+<div id="skin-management" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body" style="line-height:35px; background:#f2f2f2">
+      <div id="pink-heading-h2">NAIL & SKIN MANAGEMENT</div>
+      <div style="padding:10px 0px 10px 0px">
+        <h3>We offer proper treatment plan for various skin condition such as:</h3>
       </div>
-    </footer>
+      <h4>
+        • Tinea pedis/Athletes foot<br>
+        • Psoriasis/Dermatitis<br>
+        • Skin infections<br>
+        • Dry skin conditions<br>
+        • Wound <br>
+      </h4>
+    </div>
+  </div>
+</div>
+</div>
 
 
-
-    <!-- ************************************************************************************ -->
-    <!--                                         MODAL                                        -->
-    <!-- ************************************************************************************ -->
-
-    <div id="construction" class="modal fade" role="dialog">
-      <div class="modal-dialog">
-        <!-- Modal content-->
-        <div class="modal-content">
-          <div class="modal-body" style="text-align:center; line-height:35px; background:#f2f2f2">
-                <h1>COMING SOON</h1>
-                <h3> We are doing our best to update the site. </h3>
-                <h3> Mean while stay tuned... </h3>
-          </div>
-        </div>
-
+<div id="plantar" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body" style="line-height:35px; background:#f2f2f2">
+      <div id="pink-heading-h2">PLANATAR WART TREATMENT</div>
+      <div style="padding:10px 0px 10px 0px">
+        <h4>A plantar wart also known as veruca, is a wart caused by the human papilloma virus (HPV). It normally occurs on the sole of feet and can be a painful. It is a very common foot problem. </h4><h3>We offer a range of treatments to encourage the removal of plantar warts.</h3>
       </div>
     </div>
+  </div>
+</div>
+</div>
+
+
+<div id="orthotic" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body" style="line-height:35px; background:#f2f2f2">
+      <div id="pink-heading-h2">ORTHOTIC THERAPY</div>
+      <div style="padding:10px 0px 10px 0px">
+        <h3>
+          We perform a detailed biomechanical assessment of your lower limb before prescribing an orthotics.
+          Our aim is to provide long-term solution to acute and chronic foot condition, lower limb and postural correction and to diminish pain.
+        </h3>
+        <h4>
+        Orthotics therapy also contributes in treatment and prevention of corns and callouses by redistributing the pressure on feet.
+        A comprehensive follow up and adjustment of orthotics will be performed as per treatment plan.
+        </h4>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div id="taping" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body" style="line-height:35px; background:#f2f2f2">
+      <div id="pink-heading-h2">TAPING</div>
+      <div style="padding:10px 0px 10px 0px">
+        <h3>Taping is done by direct application of tape on skin. We perform taping to:</h3>
+      </div>
+      <h4>
+        • Reduce soft tissue swelling <br>
+        • Restrict the motion of injured part <br>
+        • Protect injured part <br>
+        • Used as splint <br>
+        • Enhance the healing process <br>
+        • Reduce pain <br>
+      </h4> 
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- ************************************* MODAL END *********************************************** -->
+
+
+
 
 
 </body>
+<!-- Js to add scrolling effects -->
 <script type="text/javascript" src="js/scroll.js"></script>
-<script>
-var $logo = $('#clogo');
-$(document).scroll(function() {
-  if($(this).scrollTop() > 300)
-  {
-    $logo.removeClass('logo');
-    $logo.addClass('logo-regular');
-    $('#foot-img').removeClass('foot-img');
-    $('#foot-img').addClass('foot-img-regular');
-  }
-  else
-  {
-    $logo.removeClass('logo-regular');
-    $logo.addClass('logo');
-    $('#foot-img').removeClass('foot-img-regular');
-    $('#foot-img').addClass('foot-img');
-
-  }
-});
-$('.nav a').on('click', function(){
-    $('.btn-navbar').click(); //bootstrap 2.x
-    $('.navbar-toggle').click() //bootstrap 3.x by Richard
-})
-</script>
 </html>

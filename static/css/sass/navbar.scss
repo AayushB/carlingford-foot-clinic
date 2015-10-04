@@ -44,9 +44,10 @@ $dropDown       : true;
         color: $colHighlight;
         background-color: $bgHighlight; }}}
   .navbar-toggle {
-    border-color: $bgHighlight;
+    border:None;
+    border-color: None;
     &:hover, &:focus {
-      background-color: $bgHighlight; }
+      background-color: $bgDefault; }
     .icon-bar {
       background-color: $colDefault; }}
   .navbar-collapse,
@@ -68,7 +69,7 @@ $dropDown       : true;
         background-color: $bgHighlight; }}}
         .navbar-toggle{
         margin-top:25px;
-        margin-right:30px !important;
+        margin-right:5px !important;
         }
         #navbar{
         margin-top:0px !important;
@@ -125,7 +126,7 @@ $dropDown       : true;
     }
             .navbar-toggle{
         margin-top:25px;
-        margin-right:20px;
+        margin-right:5px;
         }
        #navbar{
         margin-top:0px !important;
